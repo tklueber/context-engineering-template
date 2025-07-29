@@ -60,4 +60,10 @@ CHANGELOG.md: New entry for completed features
 DECISIONS.md: Business decisions made during task
 docs/decisions/: ADR files for technical decisions
 
+### Automatic Git Commits
+- Commit when task reaches completion
+- Commit at major milestones (50%, 75%, 90%)
+- Use conventional commit format with task references
+- Include validation status and quality gate results
+
 This ensures comprehensive tracking and documentation of all progress.

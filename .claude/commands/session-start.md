@@ -62,4 +62,11 @@ markdown# 🚀 Session Started - [PROJECT_NAME]
 - [Any blockers or issues]
 - [Dependencies to resolve]
 - [Decisions pending]
+
+### Git Repository Check
+- Check `git status` for uncommitted changes
+- Review recent commits for context
+- Verify branch status and remote sync
+- Load git-based context into session briefing
+
 Ready to begin productive work immediately!
