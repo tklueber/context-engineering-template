@@ -1,0 +1,83 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(mv:*)",
+      "Bash(mkdir:*)",
+      "Bash(tree:*)",
+      "Bash(touch:*)",
+      "Bash(cat:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(ng:*)",
+      "Bash(ng serve:*)",
+      "Bash(ng build:*)",
+      "Bash(ng test:*)",
+      "Bash(ng e2e:*)",
+      "Bash(ng generate:*)",
+      "Bash(ng add:*)",
+      "Bash(ng update:*)",
+      "Bash(ng lint:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npm start:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint:*)",
+      "Bash(yarn:*)",
+      "Bash(yarn install:*)",
+      "Bash(yarn start:*)",
+      "Bash(yarn build:*)",
+      "Bash(yarn test:*)",
+      "Bash(tsc:*)",
+      "Bash(eslint:*)",
+      "Bash(prettier:*)",
+      "Bash(karma:*)",
+      "Bash(jasmine:*)",
+      "Bash(jest:*)",
+      "Bash(protractor:*)",
+      "Bash(cypress:*)",
+      "WebFetch(domain:angular.dev)",
+      "WebFetch(domain:angular.io)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:npmjs.com)",
+      "WebFetch(domain:typescript.org)"
+    ],
+    "deny": [],
+    "read": [
+      "TASKS.md",
+      "CHANGELOG.md",
+      "DECISIONS.md",
+      "INITIAL.md",
+      "CLAUDE.md",
+      "docs/decisions/*.md",
+      "examples/**/*",
+      "patterns/**/*",
+      "src/**/*",
+      "package.json",
+      "angular.json",
+      "tsconfig.json"
+    ],
+    "write": [
+      "TASKS.md",
+      "CHANGELOG.md",
+      "DECISIONS.md",
+      "docs/decisions/*.md",
+      "src/**/*"
+    ],
+    "create": [
+      "docs/decisions/ADR-*.md",
+      "src/**/*",
+      "tests/**/*"
+    ],
+    "ai_preferences": {
+      "always_read_tasks_on_start": true,
+      "auto_update_progress": true,
+      "enforce_quality_gates": true,
+      "require_tests_for_completion": true
+    }
+  }
+}
